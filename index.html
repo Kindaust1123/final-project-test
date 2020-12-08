@@ -6,7 +6,7 @@
 <body>
     <h2>The JavaRinth Maze</h2>
     <p>
-        Welcome to the JavaRinth!<br />        
+        Welcome to the JavaRinth! Your task is to escape the maze by making it to the green circle before time runs out! Do you have what it takes?<br />        
     </p>
     <canvas width="616" height="556" id="mazecanvas">Can't load the maze game, because your browser doesn't support HTML5.</canvas>
     <noscript>JavaScript is not enabled. To play the game, you should enable it.</noscript>
@@ -87,7 +87,7 @@
                 context.fillStyle = 'Green';
                 context.textAlign = 'center';
                 context.textBaseline = 'middle';
-                context.fillText('Congratulations you have completed the Jabyrinth!', canvas.width / 2, canvas.height / 2);
+                context.fillText('Congratulations you have completed the JavaRinth!', canvas.width / 2, canvas.height / 2);
                 window.removeEventListener('keydown', moveRect, true);
             }
         }
